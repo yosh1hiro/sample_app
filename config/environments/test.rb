@@ -1,4 +1,4 @@
-Rails.application.configure do
+SampleApp::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # The test environment is used exclusively to run your application's
@@ -36,4 +36,7 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  
+  # bcyptのコスト関数を下げることでテストの速度を向上させる
+  ActiveModel::SecurePassword.min_cost = true
 end
