@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.1'
+ruby '2.0.0'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.1.1'
@@ -12,7 +12,7 @@ gem 'bootstrap-will_paginate', '0.0.9'
 
 group :development, :test do
 	gem 'sqlite3', '1.3.8'
-	gem 'rspec-rails', '2.14.0.rc1'
+	gem 'rspec-rails', '2.14.0'
 end
 
 group :test do
